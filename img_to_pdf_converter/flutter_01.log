@@ -1,0 +1,52 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d emulator-5554 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url --devtools-server-address http://127.0.0.1:9100/
+
+## exception
+
+SentinelException: [Sentinel type: Sentinel, kind: Collected, valueAsString: <collected>] from getIsolate()
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.0.6, on Microsoft Windows [Version 10.0.19042.928], locale en-IN)
+    • Flutter version 2.0.6 at C:\flutter
+    • Framework revision 1d9032c7e1 (13 days ago), 2021-04-29 17:37:58 -0700
+    • Engine revision 05e680e202
+    • Dart version 2.12.3
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at C:\Users\ASUS\AppData\Local\Android\sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: C:\android-studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 4.1.0)
+    • Android Studio at C:\android-studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] VS Code (version 1.56.1)
+    • VS Code at C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.22.0
+
+[✓] Connected device (3 available)
+    • AOSP on IA Emulator (mobile) • emulator-5554 • android-x86    • Android 9 (API 28) (emulator)
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 90.0.4430.212
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 90.0.818.56
+
+• No issues found!
+```
